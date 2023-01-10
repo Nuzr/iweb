@@ -1,61 +1,263 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>project</title>
-    <link rel="stylesheet" href="../stylesheets/project.css">
-    <link rel="stylesheet"  type="text/css" href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@100;200;300;400;500;700;900&display=swap"/>
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins" /> 
-</head>
-<body>
+    <link rel="stylesheet" href="../stylesheets/view_Project.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@100;200;300;400;500;700;900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://fonts.googleapis.com/css?family=Poppins"
+    />
+  </head>
+  <body>
     <div class="container">
-        <div class="profile-bar">
-            <div class="logo-box">
-                <div class="logo">
-                    <img  src="../svg/Group_71icon.svg" alt=""></div>
-                   <div class="iweb">
-                    <img src="../svg/Groupiweb.svg">
-                   </div> 
-                   <div class="vertical"></div>
-                   <div class="emp-box">
-                    <div class="text">ADMIN</div>
-            </div>
-            </div>
-            <div class="photo-box">
-                <img src="../svg/Ellipse 1photo.svg">
-            </div>
+      <div class="profile-bar">
+        <div class="logo-box">
+          <div class="logo">
+            <img src="../svg/Group_71icon.svg" alt="" />
+          </div>
+          <div class="iweb">
+            <img src="../svg/Groupiweb.svg" />
+          </div>
+          <div class="vertical"></div>
+          <div class="emp-box">
+            <div class="text">ADMIN</div>
+          </div>
         </div>
-        <div class="main-page">
+        <div class="photo-box">
+          <img src="../svg/Ellipse 1photo.svg" />
+        </div>
+      </div>
+      <div class="main-page">
         <div class="sidebar">
-            <div class="menu-box">
-                <div>
-                    <img src="../svg/smart-home.svg" alt="">
-                </div>
-                <div>
-                    <img src="../svg/layer.svg" alt="">
-                </div>
-                <div>
-                    <img src="../svg/bookmark.svg" alt="">
-                </div>
-                <div>
-                    <img src="../svg/grid-7.svg" alt="">
-                </div>
-                <div>
-                    <img src="../svg/folder.svg" alt="">
-                </div>
-                <div>
-                    <img src="../svg/notification.svg" alt="">
-                </div>
+          <div class="menu-box">
+            <div>
+              <img src="../svg/smart-home.svg" alt="" />
             </div>
+            <div>
+              <img src="../svg/layer.svg" alt="" />
+            </div>
+            <div>
+              <img src="../svg/bookmark.svg" alt="" />
+            </div>
+            <div>
+              <img src="../svg/grid-7.svg" alt="" />
+            </div>
+            <div>
+              <img src="../svg/folder.svg" alt="" />
+            </div>
+            <div>
+              <img src="../svg/notification.svg" alt="" />
+            </div>
+          </div>
         </div>
         <div class="main-section">
-            <div class="header-bar">
-                <div class="emp-box">
-                    <div class="employee">Employee </div>
-                    <div class="fill-form">Fill this form to create a project</div>
-                </div>
-                <div class="create-emp">
-                    <div class="text">Create New Employee</div>
-                </div>
+          <div class="header-bar">
+            <div class="emp-box">
+              <div class="employee">Employee</div>
+              <div class="fill-form">Fill this form to create a project</div>
             </div>
+            <div class="create-emp">
+              <div class="text">Create New Employee</div>
+              <div class="add"><img src="../svg/add.svg" /></div>
+            </div>
+          </div>
+
+          <div class="pages-link">
+            <div class="all" id="al" onclick="show('all-page')">All</div>
+            <div id="de" class="dev" onclick="show('dev-page')">
+              Developers
+            </div>
+            <div class="des" onclick="show('des-page')">Designers</div>
+            <div class="admin" onclick="show('admin-page')">Admin</div>
+            <div class="manag" onclick="show('manage-page-page')">
+              Managment
+            </div>
+            <div class="oth" onclick="show('other-page')">Others</div>
+          </div>
+
+          <div class="all-profiles" id="all-page">hello</div>
+          <div class="dev-profiles" id="dev-page">
+            <div class="block">
+              <div class="profile-pic">
+                <img src="../svg/Ellipse 5vaibhav-pic.svg" alt="" />
+              </div>
+              <div class="text-box">
+                <div class="name">Vaibhav Agrawal</div>
+                <div class="designation">UI/UX Design Intern</div>
+                <div class="id"># IWEB110023</div>
+              </div>
+            </div>
+            <div class="block">
+              <div class="profile-pic">
+                <img src="../svg/Ellipse 5vaibhav-pic.svg" alt="" />
+              </div>
+              <div class="text-box">
+                <div class="name">Vaibhav Agrawal</div>
+                <div class="designation">UI/UX Design Intern</div>
+                <div class="id"># IWEB110023</div>
+              </div>
+            </div>
+            <div class="block">
+              <div class="profile-pic">
+                <img src="../svg/Ellipse 5vaibhav-pic.svg" alt="" />
+              </div>
+              <div class="text-box">
+                <div class="name">Vaibhav Agrawal</div>
+                <div class="designation">UI/UX Design Intern</div>
+                <div class="id"># IWEB110023</div>
+              </div>
+            </div>
+            <div class="block">
+              <div class="profile-pic">
+                <img src="../svg/Ellipse 5vaibhav-pic.svg" alt="" />
+              </div>
+              <div class="text-box">
+                <div class="name">Vaibhav Agrawal</div>
+                <div class="designation">UI/UX Design Intern</div>
+                <div class="id"># IWEB110023</div>
+              </div>
+            </div>
+            <div class="block">
+              <div class="profile-pic">
+                <img src="../svg/Ellipse 5vaibhav-pic.svg" alt="" />
+              </div>
+              <div class="text-box">
+                <div class="name">Vaibhav Agrawal</div>
+                <div class="designation">UI/UX Design Intern</div>
+                <div class="id"># IWEB110023</div>
+              </div>
+            </div>
+            <div class="block">
+              <div class="profile-pic">
+                <img src="../svg/Ellipse 5vaibhav-pic.svg" alt="" />
+              </div>
+              <div class="text-box">
+                <div class="name">Vaibhav Agrawal</div>
+                <div class="designation">UI/UX Design Intern</div>
+                <div class="id"># IWEB110023</div>
+              </div>
+            </div>
+            <div class="block">
+              <div class="profile-pic">
+                <img src="../svg/Ellipse 5vaibhav-pic.svg" alt="" />
+              </div>
+              <div class="text-box">
+                <div class="name">Vaibhav Agrawal</div>
+                <div class="designation">UI/UX Design Intern</div>
+                <div class="id"># IWEB110023</div>
+              </div>
+            </div>
+            <div class="block">
+              <div class="profile-pic">
+                <img src="../svg/Ellipse 5vaibhav-pic.svg" alt="" />
+              </div>
+              <div class="text-box">
+                <div class="name">Vaibhav Agrawal</div>
+                <div class="designation">UI/UX Design Intern</div>
+                <div class="id"># IWEB110023</div>
+              </div>
+            </div>
+            <div class="block">
+              <div class="profile-pic">
+                <img src="../svg/Ellipse 5vaibhav-pic.svg" alt="" />
+              </div>
+              <div class="text-box">
+                <div class="name">Vaibhav Agrawal</div>
+                <div class="designation">UI/UX Design Intern</div>
+                <div class="id"># IWEB110023</div>
+              </div>
+            </div>
+            <div class="block">
+              <div class="profile-pic">
+                <img src="../svg/Ellipse 5vaibhav-pic.svg" alt="" />
+              </div>
+              <div class="text-box">
+                <div class="name">Vaibhav Agrawal</div>
+                <div class="designation">UI/UX Design Intern</div>
+                <div class="id"># IWEB110023</div>
+              </div>
+            </div>
+            <div class="block">
+              <div class="profile-pic">
+                <img src="../svg/Ellipse 5vaibhav-pic.svg" alt="" />
+              </div>
+              <div class="text-box">
+                <div class="name">Vaibhav Agrawal</div>
+                <div class="designation">UI/UX Design Intern</div>
+                <div class="id"># IWEB110023</div>
+              </div>
+            </div>
+            <div class="block">
+              <div class="profile-pic">
+                <img src="../svg/Ellipse 5vaibhav-pic.svg" alt="" />
+              </div>
+              <div class="text-box">
+                <div class="name">Vaibhav Agrawal</div>
+                <div class="designation">UI/UX Design Intern</div>
+                <div class="id"># IWEB110023</div>
+              </div>
+            </div>
+          </div>
+          <div class="des-profiles" id="des-page"></div>
+          <div class="admin-profiles" id="admin-page"></div>
+          <div class="manage-profiles" id="manage-page"></div>
+          <div class="other-profiles" id="other-page"></div>
+        </div>
+      </div>
+    </div>
+    <script>
+      var divs = [
+        "all-page",
+        "dev-page",
+        "des-page",
+        "admin-page",
+        "manage-page",
+        "other-page",
+      ];
+
+      var visibleId = null;
+
+      function show(id) {
+        
+        if (visibleId !== id) {
+          visibleId = id;
+        
+        }
+        
+
+
+        hide();
+        
+      }
+      function hide() {
+        var div, i, id;
+        for (i = 0; i < divs.length; i++) {
+          id = divs[i];
+          div = document.getElementById(id);
+
+          if (visibleId === id) {
+            div.style.display = "grid";
+            
+          } else {
+            div.style.display = "none";
+          }
+        }
+      }
+      
+       
+       
+      
+     
+      
+      
+    </script>
+  </body>
+</html>
