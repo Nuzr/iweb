@@ -1,0 +1,102 @@
+.container {
+  width: 1512px;
+  height: 982px;
+  display: flow-root;
+}
+.container .profile-bar {
+  width: 1512px;
+  height: 117px;
+  background: #ffffff;
+  border-bottom: 1px solid #f2f3f7;
+}
+.container .profile-bar .logo-box {
+  padding: 0px;
+  width: 242.07px;
+  height: 30px;
+  margin-left: 38px;
+  margin-top: 44px;
+  margin-bottom: 43px;
+  display: inline-block;
+}
+.container .profile-bar .logo-box .logo {
+  float: left;
+  margin-right: 9px;
+}
+.container .profile-bar .logo-box .logo img {
+  height: 21.4px;
+  width: 21.4px;
+}
+.container .profile-bar .logo-box .iweb {
+  float: left;
+  margin-right: 10px;
+  padding-top: 2px;
+}
+.container .profile-bar .logo-box .iweb img {
+  height: 16px;
+  width: 115px;
+}
+.container .profile-bar .logo-box .vertical {
+  float: left;
+  margin-right: 10px;
+  width: 0px;
+  height: 30px;
+  border: 0.5px solid rgba(181, 181, 183, 0.5);
+}
+.container .profile-bar .logo-box .emp-box {
+  float: left;
+  background: rgba(255, 186, 95, 0.1);
+  border-radius: 2px;
+  width: 75.07px;
+  height: 24.04px;
+  font-family: "Google Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 8px;
+  line-height: 10px;
+  letter-spacing: 0.1em;
+  margin-top: 3px;
+  color: #f99e24;
+}
+.container .profile-bar .logo-box .emp-box .text {
+  width: 47px;
+  height: 10px;
+  padding: 7.02px 14.04px;
+}
+.container .profile-bar .photo-box {
+  float: right;
+  margin-left: 1139.93px;
+  margin-top: 31px;
+  margin-right: 38px;
+  margin-bottom: 32px;
+  width: 54px;
+  height: 54px;
+}
+.container .main-page {
+  display: inline-block;
+  height: 865px;
+  width: 1512px;
+}
+.container .main-page .sidebar {
+  float: left;
+  width: 104px;
+  height: 865px;
+  padding-top: 60px;
+  background: #ffffff;
+  border-right: 1px solid #f2f3f7;
+}
+.container .main-page .sidebar .menu-box {
+  width: 32px;
+  height: 432px;
+  margin-left: 37px;
+  margin-bottom: 373px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 48px;
+}
+.container .main-page .main-section {
+  width: 1408px;
+  height: 865px;
+  margin-left: 105px;
+}/*# sourceMappingURL=view_Project.css.map */
